@@ -15,8 +15,8 @@ $ source .venv/bin/activate
 ### 3. パッケージマネージャの更新
 $ pip install --upgrade pip
 
-### 4. 暗号ライブラリのインストール
-$ pip install cryptography
+### 4. ライブラリの一括導入
+$ pip install -r requirements.txt
 
 ### 5. 現在の環境を記録（任意）
 $ pip freeze > requirement.txt
